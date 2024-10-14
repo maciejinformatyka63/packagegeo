@@ -1,0 +1,27 @@
+{
+    "name": "www/packagegeo",
+    "version": "1.0.0",
+    "description": "A set of tools to manage contries lists",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Www\\PackageGeo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Www\\PackageGeo\\Providers\\PackageServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthias",
+            "email": "matthias.bizet03@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
