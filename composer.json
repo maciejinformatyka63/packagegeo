@@ -5,7 +5,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Www\\PackageGeo\\": "src/"
+            "Www\\PackageGeo\\": "src/",
+            "Www\\PackageGeo\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -21,7 +22,14 @@
             "email": "matthias.bizet03@gmail.com"
         }
     ],
-    "require": {},
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "pestphp/pest": "^2.35"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
