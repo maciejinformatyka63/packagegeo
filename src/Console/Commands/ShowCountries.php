@@ -1,6 +1,6 @@
 <?php
 
-namespace Www\PackageGeo\Console\Commands;
+namespace MaciejInformatyka63\PackageGeo\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;

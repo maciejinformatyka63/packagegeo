@@ -1,6 +1,6 @@
 <?php
 
-namespace Www\PackageGeo\Tests;
+namespace MaciejInformatyka63\PackageGeo\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

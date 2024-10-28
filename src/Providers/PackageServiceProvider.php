@@ -1,9 +1,9 @@
 <?php
 
-namespace Www\PackageGeo\Providers;
+namespace MaciejInformatyka63\PackageGeo\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Www\PackageGeo\Console\Commands\ShowCountries;
+use MaciejInformatyka63\PackageGeo\Console\Commands\ShowCountries;
 
 final class PackageServiceProvider extends ServiceProvider
 {

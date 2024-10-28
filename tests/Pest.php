@@ -11,7 +11,7 @@
 |
 */
 
-uses(Www\PackageGeo\Tests\TestCase::class)->in('Feature');
+uses(MaciejInformatyka63\PackageGeo\Tests\TestCase::class)->in('Feature');
 
 /*
 |--------------------------------------------------------------------------
