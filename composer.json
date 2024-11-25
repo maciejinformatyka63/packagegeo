@@ -1,6 +1,6 @@
 {
     "name": "maciejinformatyka63/packagegeo",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A set of tools to manage contries lists",
     "type": "project",
     "autoload": {
